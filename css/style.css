@@ -129,8 +129,8 @@ h1,h2,h3,h4{
 /* 2 */
 .main-container-2 {
   background-image: url("../img/back-2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-y;
+  /*background-size: cover;*/
   /*     min-height: 1000px; */
   display: flex;
   align-items: center;
