@@ -1,0 +1,194 @@
+h1,h2,h3,h4{
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: Golos-regular;
+  src: url(../font/GOLOS-TEXT_REGULAR.TTF);
+}
+.golos-regular {
+  font-family: Golos-regular;
+}
+@font-face {
+  font-family: Golos-vf;
+  src: url(../font/GOLOS-TEXT_VF.TTF);
+}
+.golos-vf {
+  font-family: Golos-vf;
+}
+@font-face {
+  font-family: Golos-bold;
+  src: url(../font/GOLOS-TEXT_BOLD.TTF);
+}
+.golos-bold {
+  font-family: Golos-bold;
+}
+@font-face {
+  font-family: Golos-medium;
+  src: url(../font/GOLOS-TEXT_MEDIUM.TTF);
+}
+.golos-medium {
+  font-family: Golos-medium;
+}
+@font-face {
+  font-family: Golos-demibold;
+  src: url(../font/GOLOS-TEXT_DEMIBOLD.TTF);
+}
+.golos-demibold {
+  font-family: Golos-demibold;
+}
+@font-face {
+  font-family: Golos-black;
+  src: url(../font/GOLOS-TEXT_BLACK.TTF);
+}
+.golos-black {
+  font-family: Golos-black;
+}
+
+@font-face {
+  font-family: goodvine;
+  src: url(../font/GOODWINE.OTF);
+}
+.goodwine {
+  font-family: goodvine;
+}
+
+.fs-48{
+  font-size: 48px;
+}
+.fs-32{
+  font-size: 32px;
+}
+.fs-20{
+  font-size: 20px;
+}
+.fs-16{
+  font-size: 16px;
+}
+
+
+.center {
+  text-align: center;
+}
+
+.main-container {
+  display: none;
+  background-image: url("/img/back-1-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 920px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* height: 139vh; */
+  justify-content: center;
+}
+/* .block-names-1 {
+  position: absolute;
+  top: 27%;
+  left: 19%;
+}
+.block-names-2 {
+  position: absolute;
+  top: 40%;
+  left: 47%;
+}
+.block-names-3 {
+  position: absolute;
+  top: 47%;
+  left: 18%;
+} */
+.center {
+  text-align: center;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.block-date {
+  position: absolute;
+  border: 3px solid #252623;
+  border-radius: 16px;
+  padding: 1px 27px;
+  margin-left: 7%;
+  /*   top: 69%;
+  left: 13%; */
+}
+
+.pb-1 {
+  padding-bottom: 0%;
+  margin-bottom: 10%;
+  transform: translateY(-50px);
+}
+
+.pb-2 {
+  padding-bottom: 15%;
+}
+
+/* 2 */
+.main-container-2 {
+  background-image: url("/img/back-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*     min-height: 1000px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /*     height: 100vh; */
+  justify-content: center;
+}
+
+/* Анимация SVG */
+
+.path {
+  fill: none;
+  stroke: #272c26;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: draw 5s linear forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+    fill: #272c26;
+    stroke: none;
+  }
+}
+
+/* dress */
+.block-images-dress{
+  width: 100%;
+}
+
+.block-images-dress img{
+  width: 30%;
+}
+.container-2{
+  padding: 0 1%;
+}
+
+.block-images-dress-top, .block-images-dress-bottom{
+  display: flex;
+  justify-content: center;
+}
+
+/* Форма */
+
+.SurveyPage-Buttons {
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 36px;
+}
+
+.Footer {
+  display: none;
+}
+
+.pt-10{
+  padding-top: 10%;
+}
