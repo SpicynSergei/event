@@ -1,5 +1,12 @@
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
   margin: 0 auto;
+}
+
+.desctop {
+  display: none;
 }
 
 @font-face {
@@ -53,19 +60,18 @@ h1,h2,h3,h4{
   font-family: goodvine;
 }
 
-.fs-48{
+.fs-48 {
   font-size: 48px;
 }
-.fs-32{
+.fs-32 {
   font-size: 32px;
 }
-.fs-20{
+.fs-20 {
   font-size: 20px;
 }
-.fs-16{
+.fs-16 {
   font-size: 16px;
 }
-
 
 .center {
   text-align: center;
@@ -73,7 +79,7 @@ h1,h2,h3,h4{
 
 .main-container {
   display: none;
-  background-image: url("../img/back-1-1.png");
+  background-image: url("/img/back-1-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 920px;
@@ -128,9 +134,9 @@ h1,h2,h3,h4{
 
 /* 2 */
 .main-container-2 {
-  background-image: url("../img/back-2.png");
-  background-repeat: repeat-y;
-  /*background-size: cover;*/
+  background-image: url("/img/back-2.png");
+  background-repeat: no-repeat;
+  background-size: auto;
   /*     min-height: 1000px; */
   display: flex;
   align-items: center;
@@ -161,18 +167,19 @@ h1,h2,h3,h4{
 }
 
 /* dress */
-.block-images-dress{
+.block-images-dress {
   width: 100%;
 }
 
-.block-images-dress img{
-  width: 35%;
+.block-images-dress img {
+  width: 30%;
 }
-.container-2{
+.container-2 {
   padding: 0 1%;
 }
 
-.block-images-dress-top, .block-images-dress-bottom{
+.block-images-dress-top,
+.block-images-dress-bottom {
   display: flex;
   justify-content: center;
 }
@@ -189,10 +196,59 @@ h1,h2,h3,h4{
   display: none;
 }
 
-.pt-10{
+.pt-10 {
   padding-top: 10%;
 }
 
 .container-2 img {
   min-width: 100%;
+}
+
+/* Desk */
+
+@media screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+  .desctop {
+    display: block;
+    padding: 30px 60px 0 60px;
+  }
+  .full-desk {
+    display: flex;
+  }
+  .main-container-2 {
+    background: none;
+    background-repeat: repeat;
+    justify-content: flex-start;
+  }
+  .container-2 {
+    padding: 0 1%;
+    display: flex;
+    justify-content: center;
+  }
+  .container-2 img {
+    min-width: 53%;
+  }
+  .pt-10 {
+    padding-top: 1%;
+  }
+  .pt-20 {
+    padding-top: 19%;
+  }
+  .container {
+    padding: 0px 23%;
+  }
+  .main-img-full img {
+    width: 103%;
+  }
+  .m0 {
+    margin: 0;
+  }
+  .pt-proc{
+    padding-top: 14%;
+  }
+  .pr-proc{
+    padding-right: 2%;
+  }
 }
