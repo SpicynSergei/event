@@ -79,7 +79,7 @@ h4 {
 
 .main-container {
   display: none;
-  background-image: url("/img/back-1-1.png");
+  background-image: url("./img/back-1-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 920px;
@@ -134,7 +134,7 @@ h4 {
 
 /* 2 */
 .main-container-2 {
-  background-image: url("/img/back-2.png");
+  background-image: url("./img/back-2.png");
   background-repeat: no-repeat;
   background-size: auto;
   /*     min-height: 1000px; */
